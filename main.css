@@ -1,0 +1,52 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./photo_2022-07-02_09-21-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.collection{
+    display: flex;
+    margin-left: 100px;
+}
+.item{
+    list-style: none;
+    margin-left: 30px;
+    transition-duration: 0.5s;
+}
+.item:hover{
+    color: red;
+    cursor: pointer;
+}
+.text{
+    margin-left: 10%;
+    margin-top: 100px;
+}
+.text h3{
+    color: white;
+    margin-bottom: 16px;
+}
+.text h1{
+    font-size: 60px;
+    margin-bottom: 16px;
+    color: dodgerblue;
+}
+.text p{
+    color: whitesmoke;
+    margin-bottom: 16px;
+}
